@@ -11,7 +11,7 @@ const genres = ["Comedy", "Drama", "Romance", "Horror", "Sci-Fi", "Documentary"]
 
 const ulNode = document.createElement('ul')
 
-for(let i=0; i<genres.length; i++) {
+for(let i=0; i<=genres.length; i++) {
     const li =  document.createElement('li')
     li.innerText = genres[i]
     ulNode.appendChild(li)

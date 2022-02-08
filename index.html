@@ -35,6 +35,8 @@ HINT: Manage your time in order to finish the structure and responsiveness befor
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <!-- IMPORT ALL THE BOOTSTRAP RELATED CSS & SCRIPTS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <style>
         /* EXERCISE 1
@@ -54,10 +56,43 @@ HINT: Manage your time in order to finish the structure and responsiveness befor
             create CSS rules to style them if needed
             ...to make sure every Album component looks the same.
          */
+
+        body {
+            background-color: black;
+        }
+
+        .card {
+            border: none;
+            border-radius: 25px;
+            overflow: hidden;
+            height: 350px;
+            width: 200px;
+        }
     </style>
 </head>
 
 <body>
+    <div class="card" style="width: 18rem;">
+        <img src="https://superhqwallpapers.com/wp-content/uploads/2021/09/Ed-Sheeran-4K-7b-Wallpaper-scaled.jpg"
+            class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            <a href="" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="https://superhqwallpapers.com/wp-content/uploads/2021/09/Ed-Sheeran-4K-7b-Wallpaper-scaled.jpg"
+            class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            <a href="" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+
     <!-- EXERCISE 2 
             Implement a navigation bar using the bootstrap component
             This navigation bar must link every section in your page.
@@ -120,7 +155,7 @@ HINT: Manage your time in order to finish the structure and responsiveness befor
             Create the JavaScript logic that runs when the page finished loading and 
             counts the albums and applies the number in the area of the footer you've previously decided.
         -->
-        <script src="script.js"></script>
+        <!-- <script src="script.js"></script> -->
 </body>
 
 </html>
